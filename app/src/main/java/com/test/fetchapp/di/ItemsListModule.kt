@@ -1,11 +1,9 @@
 package com.test.fetchapp.di
 
 import com.test.fetchapp.data.api.ItemsApiService
-import com.test.fetchapp.data.datasources.RemoteItemsDataSourceImpl
 import com.test.fetchapp.domain.datasources.RemoteItemsDataSource
 import com.test.fetchapp.domain.repository.ItemsRepository
 import com.test.fetchapp.domain.usecases.FetchGroupedItemsUseCase
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
